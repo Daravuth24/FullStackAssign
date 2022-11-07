@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function palindromeCheck(string) {
+
+// convert string to an array
+const arrVal = string.split('');
+
+// reverse the array values
+const reversedArrVal = arrVal.reverse();
+
+// convert array to string
+const reversedString = reversedArrVal.join('');
+
+if(string == reversedString) {
+    console.log('It is a palindrome');
+}
+else {
+    console.log('It is not a palindrome');
+}
+}
+
+//take input
+const string = 'racecar';
+
+palindromeCheck(string);
+    </script>
+</body>
+</html>
