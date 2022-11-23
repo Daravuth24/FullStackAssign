@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    function mycolorchoice(){
+
+        let color = ["Blue ", "Green", "Red", "Orange", "Violet", "Indigo", "Yellow "];
+
+        let o = ["th", "st", "nd", "rd"];
+
+        let mynumber = "";
+        let position = "";
+        let mycolor = "";
+
+        for (let i = 0; i <color.length; i++) {
+            if(i==3){
+                break;
+            }
+            let mycolor = color[i];	
+            return mycolor;
+        }
+
+        for (let x = 1; x<=o.length; x++) {
+            let position = o[x];	
+            return position;
+        }
+
+        for ( let number = 1; number<= 3; number++) {
+            let mynumber =number;
+            return mynumber;
+        }
+
+    
+}
+console.log(mynumber+position +" choice is "+mycolor);
+    </script>
+</body>
+</html>

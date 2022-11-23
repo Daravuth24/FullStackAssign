@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <script>
+        const myColor = ["Red", "Green", "White", "Black"];
+        let text1 = myColor.join();
+        let text2 = myColor.join(',');
+        let text3 = myColor.join('+');
+        document.getElementById("demo1").innerHTML = text1
+        document.getElementById("demo2").innerHTML = text2
+        document.getElementById("demo3").innerHTML = text3
+    </script>
+    
+</body>
+</html>

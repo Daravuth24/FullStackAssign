@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+
+    <p id="demo"></p>
+    <script>
+    const color = ["Blue ", "Green", "Red", "Orange", "Violet", "Indigo", "Yellow "];
+        
+    const o = ["th","st","nd","rd"];
+    
+    let text = "";
+
+    for (let i = 1; i<color.length; i++) {
+        if (i == 1) {
+            text += 1 + o[1] + " choice is " + color[0] + "<br />"; 
+        }
+        else if (i == 2) {
+            text += 2 + o[2] + " choice is " + color[i] + "<br />"; 
+        }
+        else if (i == 3) {
+            text += 3 + o[3] + " choice is " + color[i] + "<br />"; 
+        }
+        else{
+            text += i + o[0] + " choice is " + color[i] + "<br />"; 
+        }
+        
+    }
+    document.getElementById("demo").innerHTML = text;
+        
+        
+    </script>
+    
+</body>
+</html>
